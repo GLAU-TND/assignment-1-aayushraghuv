@@ -16,7 +16,7 @@ public class Person {
         this.emailAddress = emailAddress;
     }
 
-    public LinkListClass getContactNo() {
+      public LinkListClass getContactNo() {
         return contactNo;
     }
 
