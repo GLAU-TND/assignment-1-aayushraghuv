@@ -23,7 +23,7 @@ public class Main {
                     "Press 4 to delete a contact\n" +
                     "Press 5 to exit program ");
             int ch = tell.nextInt();
-            switch (ch) {
+              switch (ch) {
                 case 1:
                     AddContact add = new AddContact();
                     listContact.add(add.addContact());
